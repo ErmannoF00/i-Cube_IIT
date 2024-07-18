@@ -1,0 +1,262 @@
+---
+trials:
+  # Set of blocks for experiment
+  # HH = HAPTIC_HAPTIC
+  # VH = VISUAL_HAPTIC
+  # HV = HAPTIC_VISUAL
+  # VV = VISUAL_VISUAL
+  # Decide if the two cubes are equal or different
+ 
+
+  #Haptic_haptic condition 
+  - HH1:
+      condition: HAPTIC_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide1.jpg"
+      reference_image:
+        'Reference': "assets/Slide1.jpg"
+      similarity: EQUAL
+
+  - HH2:
+      condition: HAPTIC_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide2.jpg"
+      reference_image:
+        'Reference': "assets/Slide2.jpg"
+      similarity: EQUAL
+
+  - HH3:
+      condition: HAPTIC_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide9.jpg"
+      reference_image:
+        'Reference': "assets/Slide10.jpg"
+      similarity: DIFFERENT
+
+  - HH4:
+      condition: HAPTIC_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide11.jpg"
+      reference_image:
+        'Reference': "assets/Slide12.jpg"
+      similarity: DIFFERENT
+
+  - HH5:
+      condition: HAPTIC_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide25.jpg"
+      reference_image:
+        'Reference': "assets/Slide26.jpg"
+      similarity: DIFFERENT
+
+  - HH6:
+      condition: HAPTIC_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide27.jpg"
+      reference_image:
+        'Reference': "assets/Slide28.jpg"
+      similarity: DIFFERENT
+
+  #Visual_haptic condition      
+  - VH1:
+      condition: VISUAL_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide3.jpg"
+      reference_image:
+        'Reference': "assets/Slide3.jpg"
+      similarity: EQUAL
+
+  - VH2:
+      condition: VISUAL_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide4.jpg"
+      reference_image:
+        'Reference': "assets/Slide4.jpg"
+      similarity: EQUAL
+
+  - VH3:
+      condition: VISUAL_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide13.jpg"
+      reference_image:
+        'Reference': "assets/Slide14.jpg"
+      similarity: DIFFERENT
+
+  - VH4:
+      condition: VISUAL_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide15.jpg"
+      reference_image:
+        'Reference': "assets/Slide16.jpg"
+      similarity: DIFFERENT
+
+  - VH5:
+      condition: VISUAL_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide29.jpg"
+      reference_image:
+        'Reference': "assets/Slide30.jpg"
+      similarity: DIFFERENT
+
+  - VH6:
+      condition: VISUAL_HAPTIC
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide31.jpg"
+      reference_image:
+        'Reference': "assets/Slide32.jpg"
+      similarity: DIFFERENT
+
+  #Haptic_visual condition      
+  - HV1:
+      condition: HAPTIC_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide5.jpg"
+      reference_image:
+        'Reference': "assets/Slide5.jpg"
+      similarity: EQUAL
+
+  - HV2:
+      condition: HAPTIC_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide6.jpg"
+      reference_image:
+        'Reference': "assets/Slide6.jpg"
+      similarity: EQUAL
+
+  - HV3:
+      condition: HAPTIC_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide17.jpg"
+      reference_image:
+        'Reference': "assets/Slide18.jpg"
+      similarity: DIFFERENT
+
+  - HV4:
+      condition: HAPTIC_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide19.jpg"
+      reference_image:
+        'Reference': "assets/Slide20.jpg"
+      similarity: DIFFERENT
+
+  - HV5:
+      condition: HAPTIC_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide33.jpg"
+      reference_image:
+        'Reference': "assets/Slide34.jpg"
+      similarity: DIFFERENT
+
+  - HV6:
+      condition: HAPTIC_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide35.jpg"
+      reference_image:
+        'Reference': "assets/Slide36.jpg"
+      similarity: DIFFERENT
+
+  #Visual_visual condition      
+  - VV1:
+      condition: VISUAL_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide7.jpg"
+      reference_image:
+        'Reference': "assets/Slide7.jpg"
+      similarity: EQUAL
+
+  - VV2:
+      condition: VISUAL_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide8.jpg"
+      reference_image:
+        'Reference': "assets/Slide8.jpg"
+      similarity: EQUAL
+
+  - VV3:
+      condition: VISUAL_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide21.jpg"
+      reference_image:
+        'Reference': "assets/Slide22.jpg"
+      similarity: DIFFERENT
+
+  - VV4:
+      condition: VISUAL_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide23.jpg"
+      reference_image:
+        'Reference': "assets/Slide24.jpg"
+      similarity: DIFFERENT
+
+  - VV5:
+      condition: VISUAL_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide37.jpg"
+      reference_image:
+        'Reference': "assets/Slide38.jpg"
+      similarity: DIFFERENT
+
+  - VV6:
+      condition: VISUAL_VISUAL
+      need_ans: True
+      target_image:
+        'Target': "assets/Slide39.jpg"
+      reference_image:
+        'Reference': "assets/Slide40.jpg"
+      similarity: DIFFERENT
+
+trials_groups:
+  present_mode: random
+  block_groups:
+    group_haptic_haptic:
+      - HH1
+      - HH2
+      - HH3
+      - HH4
+      - HH5
+      - HH6
+    group_visuo_haptic:
+      - VH1
+      - VH2
+      - VH3
+      - VH4
+      - VH5
+      - VH6
+    group_haptic_visuo:
+      - HV1
+      - HV2
+      - HV3
+      - HV4
+      - HV5
+      - HV6
+    group_visuo_visuo:
+      - VV1
+      - VV2
+      - VV3
+      - VV4
+      - VV5
+      - VV6
+
